@@ -3,6 +3,8 @@ import { useState } from 'react'
 import './App.css'
 import Demo from './assets/pages/Demo'
 import Home from './assets/pages/Home'
+import Bc2374 from './components/Bc2374'
+import Exerc0081 from './assets/pages/Exerc0081'
 
 
 function App() {
@@ -10,6 +12,7 @@ function App() {
 
   return (
     <div className="app">
+      <Exerc0081  />
       <Demo />
      <Home/>
    
