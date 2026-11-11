@@ -19,7 +19,8 @@ function Bc2374() {
      <input type="text"
              value={pneu}
              onChange={(e) => setPneu(e.target.value)}
-     />
+     />3
+     
      <label htmlFor="">Pressão Desejada</label>
      <input type="text"
              value={digitada}
